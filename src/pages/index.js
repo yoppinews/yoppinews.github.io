@@ -3,10 +3,14 @@ import React from "react"
 import Calendar from "../components/calendar"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import TwitterShareButton from "../components/twitter_share_button"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="yoppinews" keywords={[`yoppinews`, `青山吉能`]} />
+    <p>
+      <TwitterShareButton/>
+    </p>
     <Calendar/>
     <ul>
       <li>情報の不足・誤りについては <a href="https://twitter.com/yoppinews">Twitter DM</a> にてご連絡いただけますと幸いです</li>
