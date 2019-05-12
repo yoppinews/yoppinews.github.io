@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `@yoppinews`,
     theme_color: `#81cdcd`,
-    description: `yoppinews information website`,
+    description: `unofficial news page`,
     author: `@gomi_ningen`,
   },
   plugins: [
