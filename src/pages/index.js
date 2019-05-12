@@ -1,21 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 
+import Calendar from "../components/calendar"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="yoppinews" keywords={[`yoppinews`, `青山吉能`]} />
-    <h1>@yoppinews</h1>
-    <h2>Schedules</h2>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Calendar/>
+    <p>
+      <a className="twitter-timeline" href="https://twitter.com/yoppinews?ref_src=twsrc%5Etfw">Tweets by yoppinews</a>
+    </p>
   </Layout>
 )
 
